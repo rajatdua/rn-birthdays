@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "357478634820",
+    "firebase_url": "https://dua-birthday.firebaseio.com",
+    "project_id": "dua-birthday",
+    "storage_bucket": "dua-birthday.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357478634820:android:954ac7ec26c2d6d065f311",
+        "android_client_info": {
+          "package_name": "com.birthdays"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357478634820-r09dbqfis8vfncgtqjegs9caq9ld48cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLGCfsokDXwdJAvX3gd4e74Tb546CUhBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357478634820-r09dbqfis8vfncgtqjegs9caq9ld48cd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
