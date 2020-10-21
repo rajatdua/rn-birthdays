@@ -24,10 +24,6 @@ const instructions = Platform.select({
     'Double tap R on your keyboard to reload,\nShake or press menu button for dev menu',
 });
 
-const firebaseCredentials = Platform.select({
-  ios: 'https://invertase.link/firebase-ios',
-  android: 'https://invertase.link/firebase-android',
-});
 
 type Props = {};
 
@@ -38,11 +34,6 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Welcome to React Native + Firebase!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
-        {!firebase.apps.length && (
-          <Text style={styles.instructions}>
-            {`\nYou currently have no Firebase apps registered, this most likely means you've not downloaded your project credentials. Visit the link below to learn more. \n\n ${firebaseCredentials}`}
-          </Text>
-        )}
       </View>
     );
   }
